@@ -229,7 +229,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: #222222;
+  background-color: white;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -443,6 +443,8 @@ body {
   height: 100%;
   position: fixed;
   top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
   left: 0;
   z-index: -1;
 }
