@@ -361,7 +361,7 @@ body {
 }
 @media (max-width: 992px) {
   .main {
-    padding-top: 128px;
+    padding-top: 127px;
   }
 }
 
@@ -762,6 +762,9 @@ body {
 @media (max-width: 992px) {
   .prices-title {
     font-size: 49px;
+  }
+  .prices-title span {
+    background-color: #FF5829;
   }
   .prices-img {
     height: 314px;
